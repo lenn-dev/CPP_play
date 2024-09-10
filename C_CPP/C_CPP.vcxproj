@@ -128,6 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ex1_basic.cpp" />
+    <ClCompile Include="ex2_reference.cpp" />
+    <ClCompile Include="ex3_overloading.cpp" />
+    <ClCompile Include="ex4_overloading_getItem.cpp" />
+    <ClCompile Include="ex5_reference_pointer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
