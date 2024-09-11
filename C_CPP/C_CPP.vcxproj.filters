@@ -15,19 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ex9_this.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
     <ClCompile Include="ex1_basic.cpp">
-      <Filter>리소스 파일</Filter>
+      <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="ex2_reference.cpp">
-      <Filter>리소스 파일</Filter>
+      <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="ex3_overloading.cpp">
-      <Filter>리소스 파일</Filter>
+      <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="ex4_overloading_getItem.cpp">
-      <Filter>리소스 파일</Filter>
+      <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="ex5_reference_pointer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex6_diff_pointer_reference.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex7_namespace.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex8_class.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex10_object.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
