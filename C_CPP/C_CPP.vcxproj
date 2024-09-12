@@ -127,7 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ex10_object.cpp" />
+    <ClCompile Include="ex10_construct_destruct.cpp" />
+    <ClCompile Include="ex11_construct_destruct_eg.cpp" />
+    <ClCompile Include="ex12_construct_eg2.cpp" />
+    <ClCompile Include="ex13_static_member.cpp" />
     <ClCompile Include="ex1_basic.cpp" />
     <ClCompile Include="ex2_reference.cpp" />
     <ClCompile Include="ex3_overloading.cpp" />

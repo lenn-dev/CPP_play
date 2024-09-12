@@ -42,7 +42,16 @@
     <ClCompile Include="ex8_class.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ex10_object.cpp">
+    <ClCompile Include="ex10_construct_destruct.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex11_construct_destruct_eg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex12_construct_eg2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ex13_static_member.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

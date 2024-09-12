@@ -1,3 +1,5 @@
+// 클래스 객체 생성
+
 // 생성자: 객체가 생성될 때 자동으로 호출되는 함수
 // 소멸자: 객체가 소멸될 때 자동으로 호출되는 함수
 
@@ -23,10 +25,12 @@ void testLocalObj() {
 	cout << "testLocalObj 함수 끝" << endl;
 }
 
-int main() {
+int main_contruct() {
 	cout << " main함수 시작" << endl;
 	testLocalObj();
 	cout << " main함수 끝" << endl;
+	
+	return 0;
 }
 
 // 생성자,소멸자 안적어줬을땐 어떻게 되나?
@@ -36,3 +40,5 @@ int main() {
 // 언제 생성자, 소멸자 쓰일까?
 // 생성자: 멤버 변수 초기화
 // 소멸자: 메모리 해제
+
+
