@@ -138,6 +138,9 @@
     <ClCompile Include="ex18_class_exercise2.cpp" />
     <ClCompile Include="ex19_class_exercise3.cpp" />
     <ClCompile Include="ex1_basic.cpp" />
+    <ClCompile Include="ex20_dynamic_allocation.cpp" />
+    <ClCompile Include="ex21_dynamic_allocation2.cpp" />
+    <ClCompile Include="ex22_dynamic_allocation3.cpp" />
     <ClCompile Include="ex2_reference.cpp" />
     <ClCompile Include="ex3_overloading.cpp" />
     <ClCompile Include="ex4_overloading_getItem.cpp" />
