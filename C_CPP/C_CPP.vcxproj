@@ -134,6 +134,9 @@
     <ClCompile Include="ex14_const_method.cpp" />
     <ClCompile Include="ex15_using_member_method.cpp" />
     <ClCompile Include="ex16_operator_overloading.cpp" />
+    <ClCompile Include="ex17_class_exercise1.cpp" />
+    <ClCompile Include="ex18_class_exercise2.cpp" />
+    <ClCompile Include="ex19_class_exercise3.cpp" />
     <ClCompile Include="ex1_basic.cpp" />
     <ClCompile Include="ex2_reference.cpp" />
     <ClCompile Include="ex3_overloading.cpp" />
