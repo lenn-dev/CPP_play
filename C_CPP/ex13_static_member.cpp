@@ -11,6 +11,13 @@ using namespace std;
 // float으로 0-1 사이의 수를 부여해 RGB 저장해볼것
 
 
+// 객체지향 OOP 프로그래밍에서는 전역변수의 선언을 최대한 줄이는 것이 좋음
+// 클래스 안에 정적으로 포함시키는 것이 좋음, 그렇지 않고 전역변수를 늘리면 프로그램이 지저분해짐
+// C# 같은 경우 전역변수의 개념이 전혀 없음. 모든 변수는 다 클래스 안에 넣어야 함.
+// C++ 같은 경우 C와의 호환성을 지원해야 하기 때문에 전역변수 사용할 수는 있음
+//int colorIdCounter
+
+
 class Color {
 public:
 	// Color 객체 생성될 때마다 번호를 부여하고 싶음
@@ -29,11 +36,12 @@ public:
 
 	int GetId() { return id; }
 
+	// ***********************************************************************
 	// static 메서드는 전역함수로 쓰고 싶고, class 와 밀접한 연관이 있으면서도
 	// 클래스 안에 private 변수에 접근하고 싶을때 클래스에 넣고 사용함.
 	// 그럼으로 인해서 객체 찍어낼때마다 그 객체에 포함되는 것이 아니라
 	// 클래스에 포함된 하나뿐인 메서드가 되는 것임
-	// 
+	// *********************************************************************** 
 	// 
 	// MixColor 함수를 Color 안에 넣었을 때, main함수에서 호출하기 애매해짐.
 	// purple 색을 만들때 red.MixColor, blue.MixColor등의 표현이 어색함
@@ -90,7 +98,7 @@ int Color::idCounter = 1;
 //}
 
 
-int main() {
+int main_static() {
 	Color blue(0, 0, 1);
 	Color red(1, 0, 0);
 
@@ -108,4 +116,6 @@ int main() {
 	cout << "blue.GetId() = " << blue.GetId() << endl;
 	cout << "red.GetId() = " << red.GetId() << endl;
 	cout << "purple.GetId() = " << purple.GetId() << endl;
+
+	return 0;
 }
