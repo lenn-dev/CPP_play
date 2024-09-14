@@ -141,9 +141,11 @@
     <ClCompile Include="ex20_dynamic_allocation.cpp" />
     <ClCompile Include="ex21_dynamic_allocation2.cpp" />
     <ClCompile Include="ex22_dynamic_allocation3.cpp" />
+    <ClCompile Include="ex23_depp_copy.cpp" />
     <ClCompile Include="ex2_reference.cpp" />
     <ClCompile Include="ex3_overloading.cpp" />
     <ClCompile Include="ex4_overloading_getItem.cpp" />
+    <ClCompile Include="ex50_pointer_cote.cpp" />
     <ClCompile Include="ex5_reference_pointer.cpp" />
     <ClCompile Include="ex6_diff_pointer_reference.cpp" />
     <ClCompile Include="ex7_namespace.cpp" />
