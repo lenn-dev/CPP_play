@@ -143,6 +143,7 @@
     <ClCompile Include="ex21_dynamic_allocation2.cpp" />
     <ClCompile Include="ex22_dynamic_allocation3.cpp" />
     <ClCompile Include="ex23_deep_copy.cpp" />
+    <ClCompile Include="ex24_copy_constructor_KNOU6.cpp" />
     <ClCompile Include="ex2_reference.cpp" />
     <ClCompile Include="ex3_overloading.cpp" />
     <ClCompile Include="ex4_overloading_getItem.cpp" />
