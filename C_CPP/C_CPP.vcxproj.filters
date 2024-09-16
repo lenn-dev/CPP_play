@@ -81,7 +81,7 @@
     <ClCompile Include="ex22_dynamic_allocation3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ex23_depp_copy.cpp">
+    <ClCompile Include="ex23_deep_copy.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="ex50_pointer_cote.cpp">

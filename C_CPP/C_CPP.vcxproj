@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -141,7 +142,7 @@
     <ClCompile Include="ex20_dynamic_allocation.cpp" />
     <ClCompile Include="ex21_dynamic_allocation2.cpp" />
     <ClCompile Include="ex22_dynamic_allocation3.cpp" />
-    <ClCompile Include="ex23_depp_copy.cpp" />
+    <ClCompile Include="ex23_deep_copy.cpp" />
     <ClCompile Include="ex2_reference.cpp" />
     <ClCompile Include="ex3_overloading.cpp" />
     <ClCompile Include="ex4_overloading_getItem.cpp" />
