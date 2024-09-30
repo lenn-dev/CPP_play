@@ -128,6 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DAlloc.cpp" />
     <ClCompile Include="ex10_construct_destruct.cpp" />
     <ClCompile Include="ex11_construct_destruct_eg.cpp" />
     <ClCompile Include="ex12_construct_eg2.cpp" />
@@ -153,6 +154,10 @@
     <ClCompile Include="ex7_namespace.cpp" />
     <ClCompile Include="ex8_class.cpp" />
     <ClCompile Include="ex9_this.cpp" />
+    <ClCompile Include="FindMaxInArr.cpp" />
+    <ClCompile Include="FirstStep.cpp" />
+    <ClCompile Include="IntPtr.cpp" />
+    <ClCompile Include="RecTest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

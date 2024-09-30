@@ -62,7 +62,7 @@ public:
 	}
 	
 };
-int main() {
+int main_copy_constructor() {
 	float a[3] = { 1,2,3 };
 	//3개의 객체 생성, 초기값은 a배열
 	VecF v1(3, a); //1,2,3을 저장하는 벡터
