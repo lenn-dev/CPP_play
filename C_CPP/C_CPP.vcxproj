@@ -157,7 +157,13 @@
     <ClCompile Include="FindMaxInArr.cpp" />
     <ClCompile Include="FirstStep.cpp" />
     <ClCompile Include="IntPtr.cpp" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Person.h" />
     <ClCompile Include="RecTest.cpp" />
+    <ClCompile Include="STL_count.cpp" />
+    <ClCompile Include="STL_remove.cpp" />
+    <ClCompile Include="STL_replace.cpp" />
+    <ClCompile Include="STL_serch.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
